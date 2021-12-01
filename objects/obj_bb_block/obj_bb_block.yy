@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_tmp_projectile",
-    "path": "sprites/spr_tmp_projectile/spr_tmp_projectile.yy",
+    "name": "spr_tmp_block",
+    "path": "sprites/spr_tmp_block/spr_tmp_block.yy",
   },
   "solid": false,
   "visible": true,
@@ -30,11 +30,11 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "pong",
-    "path": "folders/Objects/pong.yy",
+    "name": "brick_break",
+    "path": "folders/Objects/brick_break.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_pong_ball",
+  "name": "obj_bb_block",
   "tags": [],
   "resourceType": "GMObject",
 }

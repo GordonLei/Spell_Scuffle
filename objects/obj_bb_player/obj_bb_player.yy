@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_tmp_projectile",
-    "path": "sprites/spr_tmp_projectile/spr_tmp_projectile.yy",
+    "name": "spr_tmp_player_paddle",
+    "path": "sprites/spr_tmp_player_paddle/spr_tmp_player_paddle.yy",
   },
   "solid": false,
   "visible": true,
@@ -26,15 +26,16 @@
   "eventList": [
     {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":8,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "pong",
-    "path": "folders/Objects/pong.yy",
+    "name": "brick_break",
+    "path": "folders/Objects/brick_break.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_pong_ball",
+  "name": "obj_bb_player",
   "tags": [],
   "resourceType": "GMObject",
 }

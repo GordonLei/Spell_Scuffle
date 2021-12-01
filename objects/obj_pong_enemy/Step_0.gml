@@ -14,3 +14,4 @@ else{
 }
 
 y = clamp(y + currentSpeed, 0, room_height - sprite_height)
+//MoveCollide()

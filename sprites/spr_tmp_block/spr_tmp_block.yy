@@ -9,13 +9,13 @@
   "swfPrecision": 2.525,
   "bbox_left": 1,
   "bbox_right": 30,
-  "bbox_top": 3,
-  "bbox_bottom": 196,
+  "bbox_top": 2,
+  "bbox_bottom": 30,
   "HTile": false,
   "VTile": false,
   "For3D": false,
   "width": 32,
-  "height": 200,
+  "height": 32,
   "textureGroupId": {
     "name": "Default",
     "path": "texturegroups/Default",
@@ -24,12 +24,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"b70a0fbb-aebd-4525-a3f1-6f4e034dbe1a","path":"sprites/spr_tmp_enemy_pong/spr_tmp_enemy_pong.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"b70a0fbb-aebd-4525-a3f1-6f4e034dbe1a","path":"sprites/spr_tmp_enemy_pong/spr_tmp_enemy_pong.yy",},"LayerId":{"name":"0388a3af-2ca0-4d95-a20d-e73b4f7b5c69","path":"sprites/spr_tmp_enemy_pong/spr_tmp_enemy_pong.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_tmp_enemy_pong","path":"sprites/spr_tmp_enemy_pong/spr_tmp_enemy_pong.yy",},"resourceVersion":"1.0","name":"b70a0fbb-aebd-4525-a3f1-6f4e034dbe1a","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"b70a0fbb-aebd-4525-a3f1-6f4e034dbe1a","path":"sprites/spr_tmp_block/spr_tmp_block.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"b70a0fbb-aebd-4525-a3f1-6f4e034dbe1a","path":"sprites/spr_tmp_block/spr_tmp_block.yy",},"LayerId":{"name":"c772ca27-29f6-44a7-aa99-267022e21325","path":"sprites/spr_tmp_block/spr_tmp_block.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_tmp_block","path":"sprites/spr_tmp_block/spr_tmp_block.yy",},"resourceVersion":"1.0","name":"b70a0fbb-aebd-4525-a3f1-6f4e034dbe1a","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_tmp_enemy_pong","path":"sprites/spr_tmp_enemy_pong/spr_tmp_enemy_pong.yy",},
+    "spriteId": {"name":"spr_tmp_block","path":"sprites/spr_tmp_block/spr_tmp_block.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"cda33407-ab0d-4eed-8b9f-083a51692362","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"b70a0fbb-aebd-4525-a3f1-6f4e034dbe1a","path":"sprites/spr_tmp_enemy_pong/spr_tmp_enemy_pong.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"226e6b22-bc36-4f79-a452-eb8695324cb1","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"b70a0fbb-aebd-4525-a3f1-6f4e034dbe1a","path":"sprites/spr_tmp_block/spr_tmp_block.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
     ],
     "visibleRange": null,
@@ -58,22 +58,22 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_tmp_enemy_pong","path":"sprites/spr_tmp_enemy_pong/spr_tmp_enemy_pong.yy",},
+    "parent": {"name":"spr_tmp_block","path":"sprites/spr_tmp_block/spr_tmp_block.yy",},
     "resourceVersion": "1.3",
-    "name": "spr_tmp_enemy_pong",
+    "name": "spr_tmp_block",
     "tags": [],
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"0388a3af-2ca0-4d95-a20d-e73b4f7b5c69","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"c772ca27-29f6-44a7-aa99-267022e21325","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {
-    "name": "pong_sprites",
-    "path": "folders/Sprites/pong_sprites.yy",
+    "name": "brick_break_sprites",
+    "path": "folders/Sprites/brick_break_sprites.yy",
   },
   "resourceVersion": "1.0",
-  "name": "spr_tmp_enemy_pong",
+  "name": "spr_tmp_block",
   "tags": [],
   "resourceType": "GMSprite",
 }

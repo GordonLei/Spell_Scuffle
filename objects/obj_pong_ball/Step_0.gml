@@ -2,6 +2,9 @@
 // You can write your code in this editor
 
 
+x += xspd
+y += yspd 
+
 //if you hit the ceiling or floor, flip Y speed.
 if(y < 0 || y + sprite_height > room_height){
 	yspd = -yspd
@@ -27,11 +30,11 @@ if(xspd < 0){
 	obj_pong_enemy.start_moving = false;
 }
 
+//if the ball collides with the player or the enemy, change xpd
 if(position_meeting(x,y, obj_pong_player) || position_meeting(x,y, obj_pong_enemy)){
 	xspd = -xspd
 	obj_pong_enemy.start_moving = false;
 }
 
-x += xspd
-y += yspd 
+//MoveCollide()
 

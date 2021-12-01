@@ -12,7 +12,7 @@ else{
 }
 
 y = clamp(y + currentSpeed, 0, room_height - sprite_height)
-
+//MoveCollide()
 /*
 if(keyboard_check(ord("D")) or keyboard_check(vk_right)){
 		//	normalizes the movement toward the mouse 
