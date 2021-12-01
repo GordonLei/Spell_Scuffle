@@ -3,3 +3,5 @@
 
 currentSpeed = 0;
 maxSpeed = 8;
+
+start_moving = false;

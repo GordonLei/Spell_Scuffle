@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_tmp_player",
-    "path": "sprites/spr_tmp_player/spr_tmp_player.yy",
+    "name": "spr_tmp_player_pong",
+    "path": "sprites/spr_tmp_player_pong/spr_tmp_player_pong.yy",
   },
   "solid": false,
   "visible": true,

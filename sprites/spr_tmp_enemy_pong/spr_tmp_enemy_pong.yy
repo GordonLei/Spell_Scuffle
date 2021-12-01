@@ -8,14 +8,14 @@
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
   "bbox_left": 1,
-  "bbox_right": 31,
-  "bbox_top": 15,
-  "bbox_bottom": 24,
+  "bbox_right": 30,
+  "bbox_top": 4,
+  "bbox_bottom": 95,
   "HTile": false,
   "VTile": false,
   "For3D": false,
   "width": 32,
-  "height": 32,
+  "height": 100,
   "textureGroupId": {
     "name": "Default",
     "path": "texturegroups/Default",
@@ -24,12 +24,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"fafb462e-0d21-4a16-8bc1-71ff1c916b76","path":"sprites/spr_tmp_projectile/spr_tmp_projectile.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"fafb462e-0d21-4a16-8bc1-71ff1c916b76","path":"sprites/spr_tmp_projectile/spr_tmp_projectile.yy",},"LayerId":{"name":"32710c29-f485-47e0-9972-a54baeb2f052","path":"sprites/spr_tmp_projectile/spr_tmp_projectile.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_tmp_projectile","path":"sprites/spr_tmp_projectile/spr_tmp_projectile.yy",},"resourceVersion":"1.0","name":"fafb462e-0d21-4a16-8bc1-71ff1c916b76","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"b70a0fbb-aebd-4525-a3f1-6f4e034dbe1a","path":"sprites/spr_tmp_enemy_pong/spr_tmp_enemy_pong.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"b70a0fbb-aebd-4525-a3f1-6f4e034dbe1a","path":"sprites/spr_tmp_enemy_pong/spr_tmp_enemy_pong.yy",},"LayerId":{"name":"aa368bfa-3569-49f1-b0fa-6967e53cd0b6","path":"sprites/spr_tmp_enemy_pong/spr_tmp_enemy_pong.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_tmp_enemy_pong","path":"sprites/spr_tmp_enemy_pong/spr_tmp_enemy_pong.yy",},"resourceVersion":"1.0","name":"b70a0fbb-aebd-4525-a3f1-6f4e034dbe1a","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_tmp_projectile","path":"sprites/spr_tmp_projectile/spr_tmp_projectile.yy",},
+    "spriteId": {"name":"spr_tmp_enemy_pong","path":"sprites/spr_tmp_enemy_pong/spr_tmp_enemy_pong.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"50067ef8-59cb-488e-8c61-0c02728ac6ad","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"fafb462e-0d21-4a16-8bc1-71ff1c916b76","path":"sprites/spr_tmp_projectile/spr_tmp_projectile.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"4252ce22-6bc9-4a84-a3f7-0d65bc35d8f0","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"b70a0fbb-aebd-4525-a3f1-6f4e034dbe1a","path":"sprites/spr_tmp_enemy_pong/spr_tmp_enemy_pong.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
     ],
     "visibleRange": null,
@@ -58,14 +58,14 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_tmp_projectile","path":"sprites/spr_tmp_projectile/spr_tmp_projectile.yy",},
+    "parent": {"name":"spr_tmp_enemy_pong","path":"sprites/spr_tmp_enemy_pong/spr_tmp_enemy_pong.yy",},
     "resourceVersion": "1.3",
-    "name": "spr_tmp_projectile",
+    "name": "spr_tmp_enemy_pong",
     "tags": [],
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"32710c29-f485-47e0-9972-a54baeb2f052","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"aa368bfa-3569-49f1-b0fa-6967e53cd0b6","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {
@@ -73,7 +73,7 @@
     "path": "folders/Sprites/pong_sprites.yy",
   },
   "resourceVersion": "1.0",
-  "name": "spr_tmp_projectile",
+  "name": "spr_tmp_enemy_pong",
   "tags": [],
   "resourceType": "GMSprite",
 }
