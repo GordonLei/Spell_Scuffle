@@ -39,6 +39,13 @@ if(position_meeting(x,y, obj_pong_player) || position_meeting(x,y, obj_pong_enem
 }
 */
 
+if(x + sprite_width >= room_width){
+	room_goto(rm_pong_win)
+}
+else if(x <= 0){
+	room_goto(rm_pong_lose)
+}
+
 MoveCollide()
 
 if(hit){
@@ -46,7 +53,7 @@ if(hit){
 }
 //if the ball is going toward the enemy, 
 //	the enemy only reacts when it passes half the room
-if(x >= room_width * 2/3 and xspd > 0 and obj_pong_enemy.start_moving == false){
+if(x >= room_width * 6/7 and xspd > 0 and obj_pong_enemy.start_moving == false){
 	obj_pong_enemy.start_moving = true;
 }
 //if the ball is going toward the player, 
