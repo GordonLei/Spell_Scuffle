@@ -1,5 +1,10 @@
 /// @description Insert description here
 // You can write your code in this editor
+
+if(x + sprite_width >= room_width){
+	room_goto(rm_)
+}
+
 MoveCollide()
 
 if(hit){
