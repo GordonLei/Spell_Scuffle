@@ -1,6 +1,13 @@
 /// @description Insert description here
 // You can write your code in this editor
 
+if(instance_number(obj_bb_block) <= 0){
+	room_goto(rm_bb_win)
+}
+else if(y + sprite_height >= room_height){
+	room_goto(rm_bb_lose)
+}
+
 MoveCollide()
 
 if(hit){
