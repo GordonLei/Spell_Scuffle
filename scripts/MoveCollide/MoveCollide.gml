@@ -1,7 +1,6 @@
 // Script assets have changed for v2.3.0 see
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
 function MoveCollide(){
-
 	var full_xspd = xspd + x_remainder
 	var full_yspd = yspd + y_remainder
 	
@@ -52,5 +51,4 @@ function MoveCollide(){
 		yspd *= -1	
 		y_remainder = 0
 	}
-
 }

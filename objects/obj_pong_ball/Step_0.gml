@@ -40,10 +40,10 @@ if(position_meeting(x,y, obj_pong_player) || position_meeting(x,y, obj_pong_enem
 */
 
 if(x + sprite_width >= room_width){
-	room_goto(rm_pong_win)
+	room_goto(rm_start)
 }
 else if(x <= 0){
-	room_goto(rm_pong_lose)
+	room_goto(rm_start)
 }
 
 MoveCollide()

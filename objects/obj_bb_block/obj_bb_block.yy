@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_tmp_block",
-    "path": "sprites/spr_tmp_block/spr_tmp_block.yy",
+    "name": "spr_tmp_block_1",
+    "path": "sprites/spr_tmp_block_1/spr_tmp_block_1.yy",
   },
   "solid": false,
   "visible": true,
