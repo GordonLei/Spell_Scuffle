@@ -2,9 +2,6 @@
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
 function MoveCollide(){
 	
-	
-	
-	
 	var full_xspd = xspd + x_remainder
 	var full_yspd = yspd + y_remainder
 	
@@ -22,6 +19,7 @@ function MoveCollide(){
 				x_remainder = 0
 				hit = true;
 				
+				audio_play_sound(snd_bounce, 1, false)
 				
 				
 				break;
@@ -40,6 +38,9 @@ function MoveCollide(){
 				yspd *= -1
 				y_remainder = 0
 				hit = true;
+				
+				audio_play_sound(snd_bounce, 1, false)
+				
 				break;
 			}
 			y+= sign(yspd_floored)
@@ -51,11 +52,15 @@ function MoveCollide(){
 	or x < 0{
 		xspd *= -1	
 		x_remainder = 0
+		
+		audio_play_sound(snd_bounce, 1, false)
 	}
 
 	if y > room_height
 	or y < 0{
 		yspd *= -1	
 		y_remainder = 0
+		
+		audio_play_sound(snd_bounce, 1, false)
 	}
 }
