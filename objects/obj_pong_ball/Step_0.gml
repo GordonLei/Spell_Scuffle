@@ -39,6 +39,9 @@ if(position_meeting(x,y, obj_pong_player) || position_meeting(x,y, obj_pong_enem
 }
 */
 
+
+audio_play_sound(button_press, 1, false)
+
 if(x + sprite_width >= room_width){
 	room_goto(rm_start)
 }

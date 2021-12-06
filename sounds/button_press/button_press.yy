@@ -10,14 +10,14 @@
     "name": "audiogroup_default",
     "path": "audiogroups/audiogroup_default",
   },
-  "soundFile": "jump.wav",
-  "duration": 0.336712,
+  "soundFile": "button_press.mp3",
+  "duration": 0.36,
   "parent": {
     "name": "Sounds",
     "path": "folders/Sounds.yy",
   },
   "resourceVersion": "1.0",
-  "name": "jump",
+  "name": "button_press",
   "tags": [],
   "resourceType": "GMSound",
 }

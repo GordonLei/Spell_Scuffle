@@ -14,3 +14,4 @@ hit = false;
 
 my_scale_x = 1;
 my_scale_y = 1;
+

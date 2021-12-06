@@ -9,15 +9,13 @@ else if(y + sprite_height >= room_height){
 }
 
 
-var sound = sound_button_press
-audio_sound_pitch(sound, random_range(.93,1.6));
-audio_play_sound(sound, 1, false);
+
 
 MoveCollide()
 
 if(hit){
-	my_scale_x = 4;
-	my_scale_y = my_scale_x;
+	//my_scale_x = 4;
+	//my_scale_y = my_scale_x;
 	hit = false 
 	
 	//ShakeScreen(.5, 5);
