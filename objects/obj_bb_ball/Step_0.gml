@@ -8,6 +8,11 @@ else if(y + sprite_height >= room_height){
 	room_goto(rm_start)
 }
 
+
+var sound = sound_button_press
+audio_sound_pitch(sound, random_range(.93,1.6));
+audio_play_sound(sound, 1, false);
+
 MoveCollide()
 
 if(hit){
