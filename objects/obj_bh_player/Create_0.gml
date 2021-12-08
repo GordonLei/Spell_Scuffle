@@ -7,7 +7,7 @@ event_inherited();
 x= room_width/2
 y= room_height-128
 
-mspd = 15
+mspd = 8
 xspd = 0
 yspd = 0
 x_remainder = 0

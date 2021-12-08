@@ -27,5 +27,5 @@ if keyboard_check(vk_up) || keyboard_check(ord("W")){
 if (! (keyboard_check(vk_up) || keyboard_check(ord("W"))) and !(keyboard_check(vk_down) || keyboard_check(ord("S")))){
 	yspd = 0
 }
-y = clamp(y + yspd, 0, room_height - sprite_height)
+y = clamp(y + yspd, 0 + mspd, room_height - sprite_height - mspd)
 MoveCollide()

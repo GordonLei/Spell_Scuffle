@@ -13,6 +13,7 @@ if(y >= room_height){
 	y = 0;
 }
 
+//if you are dead, destory self and do juice
 if block_health<1{
 	instance_destroy()	
 	//SpawnParticles(20, x, y, -10, 10, -5, -10, 1 * room_speed);
