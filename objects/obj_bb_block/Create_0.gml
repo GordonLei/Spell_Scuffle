@@ -1,7 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-yspd = 1
+yspd = 0.3
 xspd = 0
 
 //for precise movement

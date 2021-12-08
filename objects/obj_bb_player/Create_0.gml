@@ -5,7 +5,7 @@ global.GAME_BEGIN = false
 event_inherited()
 
 x= room_width/2
-y= room_height-64
+y= room_height-128
 
 mspd = 15
 xspd = 0

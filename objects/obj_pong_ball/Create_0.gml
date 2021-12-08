@@ -11,7 +11,7 @@ yspd = speed_options[irandom(array_length(speed_options) - 1)]
 */
 
 yspd = -10
-xspd = choose(-10,10)
+xspd = choose(-8,8)
 
 //for precise movement
 x_remainder = 0
@@ -21,3 +21,8 @@ hit = false;
 
 my_scale_x = 1;
 my_scale_y = 1;
+
+//enemy reactionn time randomizer
+reaction_distance = room_width * 5/7;
+//simulate ai is getting tired (it reacts slower)
+reaction_tiredness = 0;

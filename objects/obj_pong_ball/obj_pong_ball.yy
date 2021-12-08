@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_tmp_projectile",
-    "path": "sprites/spr_tmp_projectile/spr_tmp_projectile.yy",
+    "name": "spr_tmp_projectile_1",
+    "path": "sprites/spr_tmp_projectile_1/spr_tmp_projectile_1.yy",
   },
   "solid": false,
   "visible": true,

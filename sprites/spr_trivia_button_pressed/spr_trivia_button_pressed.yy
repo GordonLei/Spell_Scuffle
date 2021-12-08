@@ -7,10 +7,10 @@
   "edgeFiltering": false,
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
-  "bbox_left": 0,
-  "bbox_right": 63,
-  "bbox_top": 0,
-  "bbox_bottom": 63,
+  "bbox_left": 9,
+  "bbox_right": 56,
+  "bbox_top": 21,
+  "bbox_bottom": 48,
   "HTile": false,
   "VTile": false,
   "For3D": false,
@@ -24,9 +24,9 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"a0827377-13cf-41c9-8116-5e33c5f731cd","path":"sprites/spr_trivia_button_pressed/spr_trivia_button_pressed.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"a0827377-13cf-41c9-8116-5e33c5f731cd","path":"sprites/spr_trivia_button_pressed/spr_trivia_button_pressed.yy",},"LayerId":{"name":"e27b54fc-cb21-4bd6-8e9c-a389892a1d06","path":"sprites/spr_trivia_button_pressed/spr_trivia_button_pressed.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_trivia_button_pressed","path":"sprites/spr_trivia_button_pressed/spr_trivia_button_pressed.yy",},"resourceVersion":"1.0","name":"a0827377-13cf-41c9-8116-5e33c5f731cd","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"2c94c08b-6faa-42fb-b616-587114c51cab","path":"sprites/spr_trivia_button_pressed/spr_trivia_button_pressed.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"2c94c08b-6faa-42fb-b616-587114c51cab","path":"sprites/spr_trivia_button_pressed/spr_trivia_button_pressed.yy",},"LayerId":{"name":"aff6e439-79fa-4fdd-acdb-49b65eefcde8","path":"sprites/spr_trivia_button_pressed/spr_trivia_button_pressed.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_trivia_button_pressed","path":"sprites/spr_trivia_button_pressed/spr_trivia_button_pressed.yy",},"resourceVersion":"1.0","name":"2c94c08b-6faa-42fb-b616-587114c51cab","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
     "spriteId": {"name":"spr_trivia_button_pressed","path":"sprites/spr_trivia_button_pressed/spr_trivia_button_pressed.yy",},
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"1eaf11f1-21ad-40df-a763-9044cf282d0b","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"a0827377-13cf-41c9-8116-5e33c5f731cd","path":"sprites/spr_trivia_button_pressed/spr_trivia_button_pressed.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"d01710ae-0d93-4e27-937f-94f4ad25c2d8","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"2c94c08b-6faa-42fb-b616-587114c51cab","path":"sprites/spr_trivia_button_pressed/spr_trivia_button_pressed.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
     ],
     "visibleRange": null,
@@ -65,12 +65,12 @@
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"e27b54fc-cb21-4bd6-8e9c-a389892a1d06","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"aff6e439-79fa-4fdd-acdb-49b65eefcde8","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "trivia_sprites",
+    "path": "folders/Sprites/trivia_sprites.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_trivia_button_pressed",

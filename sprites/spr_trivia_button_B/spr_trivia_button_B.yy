@@ -7,10 +7,10 @@
   "edgeFiltering": false,
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
-  "bbox_left": 0,
-  "bbox_right": 63,
-  "bbox_top": 0,
-  "bbox_bottom": 63,
+  "bbox_left": 9,
+  "bbox_right": 56,
+  "bbox_top": 17,
+  "bbox_bottom": 48,
   "HTile": false,
   "VTile": false,
   "For3D": false,
@@ -24,9 +24,9 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"a0827377-13cf-41c9-8116-5e33c5f731cd","path":"sprites/spr_trivia_button_B/spr_trivia_button_B.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"a0827377-13cf-41c9-8116-5e33c5f731cd","path":"sprites/spr_trivia_button_B/spr_trivia_button_B.yy",},"LayerId":{"name":"e27b54fc-cb21-4bd6-8e9c-a389892a1d06","path":"sprites/spr_trivia_button_B/spr_trivia_button_B.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_trivia_button_B","path":"sprites/spr_trivia_button_B/spr_trivia_button_B.yy",},"resourceVersion":"1.0","name":"a0827377-13cf-41c9-8116-5e33c5f731cd","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"469d89ac-d021-40e9-a1f4-05a7b4864b75","path":"sprites/spr_trivia_button_B/spr_trivia_button_B.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"469d89ac-d021-40e9-a1f4-05a7b4864b75","path":"sprites/spr_trivia_button_B/spr_trivia_button_B.yy",},"LayerId":{"name":"38b33dd4-0159-4bcf-8da3-605df3f48dd3","path":"sprites/spr_trivia_button_B/spr_trivia_button_B.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_trivia_button_B","path":"sprites/spr_trivia_button_B/spr_trivia_button_B.yy",},"resourceVersion":"1.0","name":"469d89ac-d021-40e9-a1f4-05a7b4864b75","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
     "spriteId": {"name":"spr_trivia_button_B","path":"sprites/spr_trivia_button_B/spr_trivia_button_B.yy",},
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"99ccbc05-60ba-4fe4-8715-af78418635fd","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"a0827377-13cf-41c9-8116-5e33c5f731cd","path":"sprites/spr_trivia_button_B/spr_trivia_button_B.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"9b9c28bd-ff96-4f3c-b6a3-44a65b967f8a","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"469d89ac-d021-40e9-a1f4-05a7b4864b75","path":"sprites/spr_trivia_button_B/spr_trivia_button_B.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
     ],
     "visibleRange": null,
@@ -65,12 +65,12 @@
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"e27b54fc-cb21-4bd6-8e9c-a389892a1d06","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"38b33dd4-0159-4bcf-8da3-605df3f48dd3","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "trivia_sprites",
+    "path": "folders/Sprites/trivia_sprites.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_trivia_button_B",

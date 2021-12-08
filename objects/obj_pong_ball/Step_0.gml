@@ -52,16 +52,18 @@ else if(x <= 0){
 MoveCollide()
 
 if(hit){
-	hit = false 
+	hit = false;
+	reaction_tiredness += 0.05;
 }
 //if the ball is going toward the enemy, 
 //	the enemy only reacts when it passes half the room
-if(x >= room_width * 6/7 and xspd > 0 and obj_pong_enemy.start_moving == false){
+if(x >= reaction_distance and xspd > 0 and obj_pong_enemy.start_moving == false){
 	obj_pong_enemy.start_moving = true;
 }
 //if the ball is going toward the player, 
 //	the enemy should not move
 if(xspd < 0){
 	obj_pong_enemy.start_moving = false;
+	reaction_distance = random_range(room_width * 5/7, room_width * 6/7 + reaction_tiredness);
 }
 
